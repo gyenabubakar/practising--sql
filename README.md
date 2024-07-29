@@ -2,9 +2,9 @@
 
 I intend to solve all the exercises on [pgexercises.com](https://pgexercises.com/) in 3 ways, with:
 
-1. SQL
-2. DrizzleORM
-3. Prisma
+- [ ] SQL
+- [ ] DrizzleORM
+- [ ] Prisma
 
 I'll create folders for each of them, with each folder containing the solution to all the exercises.
 
