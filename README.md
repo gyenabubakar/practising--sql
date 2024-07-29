@@ -1,10 +1,11 @@
 # practising--postgres
 
-I intend to solve all the exercises on [pgexercises.com](https://pgexercises.com/) in 3 ways, with:
+I intend to solve all the exercises on [pgexercises.com](https://pgexercises.com/) in 4 ways, with:
 
-- [ ] SQL
+- [ ] PostgreSQL
 - [ ] DrizzleORM
 - [ ] Prisma
+- [ ] SQLite (still not sure if this is necessary)
 
 I'll create folders for each of them, with each folder containing the solution to all the exercises.
 
