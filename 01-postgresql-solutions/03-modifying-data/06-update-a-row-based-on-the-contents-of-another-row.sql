@@ -1,4 +1,4 @@
-WITH first_prices_plus_10_percent (member, guest) AS (
+WITH first_prices_10_percent (member, guest) AS (
     SELECT
         (membercost * 0.1) as member,
         (guestcost * 0.1) as guest
@@ -6,6 +6,6 @@ WITH first_prices_plus_10_percent (member, guest) AS (
     WHERE facid = 0
 )
 UPDATE cd.facilities
-SET membercost = membercost + (SELECT member FROM first_prices_plus_10_percent),
-    guestcost = guestcost + (SELECT guest FROM first_prices_plus_10_percent)
+SET membercost = membercost + (SELECT member FROM first_prices_10_percent),
+    guestcost = guestcost + (SELECT guest FROM first_prices_10_percent)
 WHERE facid = 1;
