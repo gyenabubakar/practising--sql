@@ -2,7 +2,7 @@
 
 I intend to solve all the exercises on [pgexercises.com](https://pgexercises.com/) in 4 ways, with:
 
-- [ ] PostgreSQL
+- [x] PostgreSQL
 - [ ] DrizzleORM
 - [ ] Prisma
 - [ ] SQLite (still not sure if this is necessary)
